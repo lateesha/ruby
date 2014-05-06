@@ -1,3 +1,5 @@
+##define a class for project
+
 class Project
 	attr_reader :name
 	attr_accessor :location, :start_date, :end_date, :funded
@@ -12,6 +14,7 @@ class Project
 end
 
 #----------- 
+
 projects = []
 
 answer = "y"
